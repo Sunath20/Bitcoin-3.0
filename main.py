@@ -87,6 +87,4 @@ def make_dataset(df,path="TrainDataset"):
 
         
 
-
-make_dataset(df[:1000])
-make_dataset(df[1000:1500])
+make_dataset(df[1500:2000],"TestDataset")
